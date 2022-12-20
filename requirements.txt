@@ -10,5 +10,4 @@ mysql-connector-python-rf==2.2.2
 PyMySQL==0.10.1
 pytz==2022.7
 six==1.16.0
-VaccinationManagementSystem==3.9
 Werkzeug==1.0.1
