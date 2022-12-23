@@ -48,5 +48,5 @@ def index():
 
 
 if __name__ == '__main__':
-    # app.run(debug=False, host=config['host'], port=config['port'])
-    app.run(debug=False, host=config['host'])
+    app.run(debug=False, host=config['host'], port=config['port'])
+    # app.run(debug=False, host=config['host'])
