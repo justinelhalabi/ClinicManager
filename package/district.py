@@ -79,7 +79,7 @@ class District(Resource):
 
         districtInput = request.get_json(force=True)
         Name = districtInput['Name']
-        print(districtInput)
+        # print(districtInput)
         conn4.execute(
             """UPDATE district SET Name='%s' WHERE ID = %s"""
             % (Name, id))
